@@ -1,0 +1,70 @@
+/* Apply the background image to the About page */
+body {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cbf38665-92e9-4ecb-8712-324e6b7af2f9/dg2nlnu-95aa7345-8c07-4509-bd6d-58754b7d9c23.png/v1/fill/w_1192,h_670,q_70,strp/baronne_de_fleur_by_rogermorhan_dg2nlnu-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI1MSIsInBhdGgiOiJcL2ZcL2NiZjM4NjY1LTkyZTktNGVjYi04NzEyLTMyNGU2YjdhZjJmOVwvZGcybmxudS05NWFhNzM0NS04YzA3LTQ1MDktYmQ2ZC01ODc1NGI3ZDljMjMucG5nIiwid2lkdGgiOiI8PTQwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.658Qd9SgV6VXcgSw540OZU2kJyXXarBo48XvRg8O8rI');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add a dark overlay to enhance text visibility */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  /* Main content area for the about page */
+  .about-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for the text */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style for the heading */
+  .about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* Style for the paragraph or additional text */
+  .about-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Link button style */
+  .about-content a {
+    color: #00f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-content a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  

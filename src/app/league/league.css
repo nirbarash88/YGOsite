@@ -1,0 +1,70 @@
+/* Apply the background image to the league page */
+body {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cbf38665-92e9-4ecb-8712-324e6b7af2f9/di5adpt-3738e23d-a67b-4349-86bf-5e862a06fe47.png/v1/fit/w_828,h_466,q_70,strp/skull_guardian__protector_of_the_voiceless_voice_by_rogermorhan_di5adpt-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI1MSIsInBhdGgiOiJcL2ZcL2NiZjM4NjY1LTkyZTktNGVjYi04NzEyLTMyNGU2YjdhZjJmOVwvZGk1YWRwdC0zNzM4ZTIzZC1hNjdiLTQzNDktODZiZi01ZTg2MmEwNmZlNDcucG5nIiwid2lkdGgiOiI8PTQwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.rwM_5m4mShfLO6c6zhzRsOg816IQh2rqwRr4avlDoag');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add a dark overlay to enhance text visibility */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  /* Main content area for the league page */
+  .league-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for the text */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style for the heading */
+  .league-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* Style for the paragraph or additional text */
+  .league-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Link button style */
+  .league-content a {
+    color: #00f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .league-content a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
